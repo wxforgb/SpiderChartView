@@ -3,6 +3,16 @@
 A spider chart sample that uses [Macaw](https://github.com/exyte/macaw) library.
 ![SpiderChartView Example](example.jpg)
 
+## Usage
+```swift
+spiderChartView.create(ratingAxisValues: [
+            ("コスパ", 0.5),
+            ("持続力", 0.5),
+            ("カバー力", 0.7),
+            ("保湿力", 0.72),
+            ("フィット感", 0.7),
+            ("UV効果", 0.7)])
+```
 ## Customize
 
 You can change the style of spider chart by the following options.
